@@ -11,6 +11,15 @@ class ascensorHalo {
     var estadoActual: EstadoHalo = EstadoHalo.IDLE
         private set
 
+    var GarciaBarbon: int = 0
+        private set
+
+    var Pcompostela: int = 1
+        private set
+
+    var Moviemiento: int = 2
+    private set
+
 
     fun pulsarBotonBajar(){
         when (estadoActual) {
