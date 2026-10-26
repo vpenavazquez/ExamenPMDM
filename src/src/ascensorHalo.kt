@@ -72,8 +72,7 @@ class AscensorHalo {
     }
 
 
-    fun nivel_0(): Unit = pulsarBotonBajar()
-    fun nivel_1(): Unit = pulsarBotonSubir()
+
 
     //registras el error y pasa a estado error
     private fun registrarError(): Unit {
